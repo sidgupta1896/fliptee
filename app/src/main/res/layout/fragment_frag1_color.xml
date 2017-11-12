@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".frag2_clipart">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <com.rtugeek.android.colorseekbar.ColorSeekBar
+        android:id="@+id/id_colorSlider"
+        android:layout_width="match_parent"
+        app:colors="@array/material_colors"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical" />
+</LinearLayout>

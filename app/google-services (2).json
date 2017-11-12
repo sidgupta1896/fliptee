@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "378921731996",
+    "project_id": "fliptee-144118"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378921731996:android:b5b8a17f03c6050f",
+        "android_client_info": {
+          "package_name": "com.example.welcome.fliptee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378921731996-2i45cdg6bgsbfv89j48911conoudbdi8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.welcome.fliptee",
+            "certificate_hash": "309C5BE0CDD7464938833139D3387041D2688025"
+          }
+        },
+        {
+          "client_id": "378921731996-ekgknhr1l4v06je6eb9g04d4ulnbdvqd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf2UrPoXv9Maxk26JlNYrwNMoVRnIRSUI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/gp">
+    <item android:id="@+id/nav_account"
+      android:icon="@mipmap/ic_person_black_24dp"
+      android:title="My Account"
+      android:orderInCategory="100"/>
+    <item android:id="@+id/id_checkOut"
+          android:title="Checkout"
+          android:icon="@mipmap/ic_shopping_cart_black_24dp"
+          android:orderInCategory="100"/>
+    <item android:id="@+id/nav_settings"
+          android:icon="@mipmap/ic_settings_black_24dp"
+          android:title="Settings"
+          android:orderInCategory="100"
+        />
+
+<item android:id="@+id/orders"
+      android:icon="@mipmap/ic_grade_black_24dp"
+      android:title="My Orders"/>
+
+<item android:id="@+id/design"
+     android:icon="@mipmap/ic_print_black_24dp"
+    android:title="Design Shirt" />
+    <item android:id="@+id/nav_logout"
+          android:icon="@mipmap/ic_donut_large_black_24dp"
+          android:title="Logout"
+          android:orderInCategory="100"/>
+   </group>
+
+</menu>

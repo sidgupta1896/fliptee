@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.welcome.fliptee.LoginActivity"
+    android:background="#FFF">
+    <!--android:background="@drawable/welcome_image"-->
+
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_Google_Signin"
+        android:background="@drawable/common_plus_signin_btn_text_dark_normal"
+        android:layout_above="@+id/textName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp">
+    </com.google.android.gms.common.SignInButton>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/create_thumb"
+        />
+
+    <!--
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fliptee"
+        android:id="@+id/textViewinloginactivity"
+        android:textSize="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        />
+-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textName"
+        android:hint="Let's Go"
+        android:textSize="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="88dp" />
+   <!-- <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textEmail"
+        android:hint="enter email"
+        android:layout_below="@+id/button_Google_Signin"
+        android:layout_alignEnd="@+id/textName"
+        android:layout_marginTop="65dp" />-->
+
+    <!--<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FACEBOOK"
+        android:id="@+id/fbloginbutton"
+        android:layout_above="@+id/textEmail"
+        android:layout_toStartOf="@+id/textEmail" />-->
+
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical" android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="Acces Gallery"
+        android:id="@+id/id_gallery_designs"
+        android:src="@mipmap/gallery_images"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp" />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="65dp"
+        android:id="@+id/id_save"
+        android:src="@mipmap/favourite_heart"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="32dp" />
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:text="Screenshot"
+        android:id="@+id/button_screenshot"
+        android:src="@drawable/images"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/id_save"
+        android:layout_marginEnd="32dp" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/cameraimageView"
+        android:src="@drawable/dslrcameraicon"
+        android:layout_alignBottom="@+id/button_screenshot"
+        android:layout_toStartOf="@+id/button_screenshot"
+        android:layout_marginEnd="32dp" />
+
+
+</RelativeLayout>

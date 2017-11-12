@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/id_dialog_gallery"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Add To Kart"
+        android:id="@+id/id_dialog_ok"
+        android:layout_below="@+id/id_dialog_gallery"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/id_dialog_cancal" />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:id="@+id/id_dialog_cancal"
+        android:layout_below="@+id/id_dialog_gallery"
+        android:layout_alignEnd="@+id/id_dialog_gallery" />
+
+</RelativeLayout>

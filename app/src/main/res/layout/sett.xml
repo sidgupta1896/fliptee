@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/com_facebook_button_send_background_color"
+             >
+
+ <LinearLayout
+     android:layout_width="77dp"
+     android:layout_height="139dp"
+      android:orientation="horizontal">
+     <ImageView
+         android:layout_width="75dp"
+         android:layout_height="71dp"
+         android:layout_gravity="center_vertical"
+         android:src="@mipmap/ic_profile"
+         android:id="@+id/imageView"
+         android:backgroundTint="@color/colorPrimary"/>
+ </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:id="@+id/LinLay"
+        android:orientation="vertical"
+
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Name"
+            android:id="@+id/textView"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="email"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Credits"/>
+    </LinearLayout>
+
+</LinearLayout>

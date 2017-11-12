@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/image_screen_shot"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:layout_width="74dp"
+        android:layout_height="109dp"
+        android:id="@+id/image_share_icon"
+        android:src="@drawable/ic_share_black_24dp"
+        android:layout_gravity="right|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="74dp"
+        android:layout_height="109dp"
+        android:id="@+id/image_download_icon"
+        android:src="@drawable/ic_download_app_black_24dp"
+        android:layout_gravity="left|bottom" />
+</FrameLayout>
